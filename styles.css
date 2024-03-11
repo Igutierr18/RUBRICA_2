@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+h1 {
+    margin-top: 50px; /* Espacio entre la parte superior del contenedor y el encabezado */
+}
+
+.mejor-pelicula,
+.mejor-actriz {
+    margin-top: 50px; /* Espacio entre las secciones */
+}
+
+img {
+    max-width: 50%; /* Hace que las imágenes sean responsivas */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra las imágenes horizontalmente */
+    transition: transform 0.3s ease; /* Agrega una transición de animación */
+}
+
+img:hover {
+    transform: scale(1.1); /* Aplica un efecto de escala al hacer hover sobre la imagen */
+}
